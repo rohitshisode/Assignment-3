@@ -1,7 +1,7 @@
 public with sharing class StringPalindrome {
 	public void PalindromeCheck(String str){
 		String reverseString;
-		if(!isEmpty(str)){
+		if(!str.Isempty()){
 			reverseString=str.reverse();	
 		}
 		if(str == reverseString){

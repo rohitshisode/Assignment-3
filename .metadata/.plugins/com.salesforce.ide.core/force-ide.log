@@ -782,3 +782,6 @@ java.lang.NullPointerException
  WARN [2017-05-09 20:26:11,928] (ConnectionFactory.java:clearCache:220) - Clearing the following cached connections
  WARN [2017-05-09 20:26:11,938] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
  WARN [2017-05-09 20:26:11,948] (MetadataFactory.java:clearCache:128) - Clearing the following cached metadata stubs
+ WARN [2017-05-09 20:39:28,463] (ConnectionFactory.java:clearCache:220) - Clearing the following cached connections
+ WARN [2017-05-09 20:39:28,487] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+ WARN [2017-05-09 20:39:28,495] (MetadataFactory.java:clearCache:125) - No cached metadata stubs

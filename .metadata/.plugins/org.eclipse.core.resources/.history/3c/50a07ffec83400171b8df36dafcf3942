@@ -1,9 +1,6 @@
 public with sharing class StringPalindrome {
 	public void PalindromeCheck(String str){
-		String reverseString;
-		if(!isEmpty(str)){
-			reverseString=str.reverse();	
-		}
+		String reverseString=str.reverse();
 		if(str == reverseString){
 			System.debug('String is a palindrome');
 		} else{
