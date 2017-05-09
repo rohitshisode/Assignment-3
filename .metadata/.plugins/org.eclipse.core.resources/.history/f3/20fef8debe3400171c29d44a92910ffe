@@ -1,0 +1,17 @@
+public with sharing class Prime {
+	Interger numberForPrime,flag=0;
+	public static void PrimeOrNot(Integer tNumber){
+		numberForPrime = tNumber;
+		for(int i=2;i<number;i++){
+			if(Math.mod(number,i)==0){
+				flag=1;
+			}
+		}
+		if(flag==1){
+			System.debug('Number is not prime');
+		} else {
+			System.debug('Number is a prime number');
+		}
+	}
+    
+}

@@ -1,0 +1,7 @@
+public class SampleApexClass{
+
+	public static displayText(String text) {
+		System.debug(text);
+	}
+
+}
