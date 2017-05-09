@@ -3401,3 +3401,15 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !ENTRY com.salesforce.ide.core 2 0 2017-05-09 20:13:12.504
 !MESSAGE  WARN [2017-05-09 20:13:12,503] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
 
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-09 20:26:11.938
+!MESSAGE  WARN [2017-05-09 20:26:11,928] (ConnectionFactory.java:clearCache:220) - Clearing the following cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-09 20:26:11.938
+!MESSAGE  WARN [2017-05-09 20:26:11,938] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-09 20:26:11.958
+!MESSAGE  WARN [2017-05-09 20:26:11,948] (MetadataFactory.java:clearCache:128) - Clearing the following cached metadata stubs
+
